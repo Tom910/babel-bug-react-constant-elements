@@ -1,0 +1,12 @@
+{
+    "ignore": [
+        "node_modules/**/*"
+    ],
+    "presets": [
+        ["es2015", { "loose": true, "modules": "commonjs" }],
+        "react"
+    ],
+    "plugins": [
+        "transform-react-constant-elements"
+    ]
+}
